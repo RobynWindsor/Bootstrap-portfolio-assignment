@@ -9,13 +9,16 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./src/style.css" />
     <title>Robyn Windsor Bootstrap Portfolio</title>
   </head>
   <body>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <div class="nav-container container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i class="fa-solid fa-code" id="icon"></i
+        ></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -27,13 +30,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div
+          class="navRight collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -42,7 +51,7 @@
 
     <!-- Hero featuring a jumbotron -->
     <div class="jumbotron p-5 mb-4 bg-body-tertiary rounded-3">
-      <div class="jumboCopy container-fluid py-5">
+      <div class="jumboCopys container-fluid py-5">
         <h1 class="display-5 fw-bold">Robyn Windsor</h1>
         <p class="col-md-12 fs-4">Front-End Developer in London</p>
         <img width="200px" src="./images/avatar.jpg" />
@@ -50,10 +59,10 @@
     </div>
 
     <!-- Work Section -->
-    <div class="container-fluid">
+    <div class="container-fluid d-flex justify-content-center" id="work">
       <div class="row">
         <!-- project 1 -->
-        <div class="card" style="width: 18rem">
+        <div class="card col-3 m" style="width: 18rem">
           <img src="./images/reactProject.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Project 1</h5>
@@ -65,7 +74,7 @@
         </div>
 
         <!-- project 2 -->
-        <div class="card" style="width: 18rem">
+        <div class="card col-3" style="width: 18rem">
           <img src="./images/reactProject.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Project 2</h5>
@@ -77,7 +86,7 @@
         </div>
 
         <!-- project 3 -->
-        <div class="card" style="width: 18rem">
+        <div class="card col-3" style="width: 18rem">
           <img src="./images/reactProject.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Project 3</h5>
