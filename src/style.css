@@ -32,6 +32,6 @@ nav {
   flex-direction: row-reverse;
 }
 
-#work {
-
+#projects {
+  display: flex;
 }
