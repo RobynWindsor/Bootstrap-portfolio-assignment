@@ -4,15 +4,11 @@ body {
 
 nav {
   color: #132743;
-  font-size: 15px;
 }
 
 .nav-container {
   background-color: #6ff892;
-  padding-top: 30px;
-  padding-bottom: 30px;
   color: #132743;
-  font-size: 15px;
   z-index: 1;
 }
 
