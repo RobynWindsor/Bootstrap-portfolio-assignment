@@ -15,9 +15,9 @@
   <body>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="nav-container container-fluid">
+      <div class="nav-container container-fluid fixed-top">
         <a class="navbar-brand" href="#"
-          ><i class="fa-solid fa-code" id="icon"></i
+          ><i class="fa-solid fa-code fa-xl" id="icon"></i
         ></a>
         <button
           class="navbar-toggler"
@@ -31,10 +31,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="navRight collapse navbar-collapse"
+          class="navRight collapse navbar-collapse d-flex flex-row-reverse"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center">
             <li class="nav-item">
               <a class="nav-link" href="#">About Me</a>
             </li>
@@ -59,91 +59,80 @@
     </div>
 
     <!-- Work Section -->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
+    <!-- project 1 -->
+    <div class="container-fluid d-flex justify-content-evenly">
+      <div class="card col-2" style="width: 18rem">
+        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
-          </div>
+      <!-- project 2 -->
+      <div class="card col-2" style="width: 18rem">
+        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
+      <!-- project 3 -->
+      <div class="card col-2" style="width: 18rem">
+        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </div>
-
     <!-- Skills Section -->
     <!-- skill 1 -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="card" style="width: 18rem">
-          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Skill 1</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="card col-2" style="width: 18rem">
+        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-        <!-- skill 2 -->
-        <div class="card" style="width: 18rem">
-          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Skill 2</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
+      </div>
+      <!-- skill 2 -->
+      <div class="card col-2" style="width: 18rem">
+        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-        <!-- skill 3 -->
-        <div class="card" style="width: 18rem">
-          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Skill 3</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
+      </div>
+      <!-- skill 3 -->
+      <div class="card col-2" style="width: 18rem">
+        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </div>

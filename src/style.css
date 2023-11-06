@@ -1,5 +1,6 @@
 body {
   background-color: #132743;
+  box-sizing: content-box;
 }
 
 nav {
@@ -9,14 +10,12 @@ nav {
   font-size: 15px;
 }
 
+i {
+  width: 400px;
+}
+
 .nav-container {
-  position: fixed;
   background-color: #6ff892;
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #132743;
-  font-size: 15px;
 }
 
 .jumbotron {
@@ -28,10 +27,8 @@ nav {
 }
 
 .navRight {
-  display: flex;
-  flex-direction: row-reverse;
 }
 
-#projects {
-  display: flex;
+#work {
+  z-index: 0;
 }
