@@ -9,7 +9,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Robyn Windsor Bootstrap Portfolio</title>
   </head>
   <body>
@@ -38,13 +38,13 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link fw-bold fs-4" href="#">About Me</a>
+              <a class="nav-link fw-bold fs-4" href="#About">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold fs-4" href="#">Work</a>
+              <a class="nav-link fw-bold fs-4" href="#Work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold fs-4" href="#">Contact Me</a>
+              <a class="nav-link fw-bold fs-4" href="#Contact">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -61,50 +61,48 @@
     </div>
 
     <!-- Work Section -->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="Work">
       <div class="col">
-        <div class="card h-100">
-          <img
-            src="./images/reactProject.png"
-            class="card-img-top"
-            alt="image display a weather application"
-          />
+        <!-- Project 1 -->
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
             </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
+
+      <!-- Project 2 -->
       <div class="col">
-        <div class="card h-100">
-          <img
-            src="./images/landingPage.png"
-            class="card-img-top img-thumbnail"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img
-            src="./images/portfolio.png"
-            class="card-img-top"
-            alt="image displaying a landing page about adhd"
-          />
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
             </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- project 3 -->
+      <div class="col">
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
@@ -154,14 +152,14 @@
     </div>
 
     <!-- About Me -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="About">
       <section>
         <h2>About Me</h2>
       </section>
     </div>
 
     <!-- Contact Me -->
-    <div class="container-fluid"></div>
+    <div class="container-fluid" id="Contact"></div>
     <!-- Footer -->
     <footer></footer>
   </body>
