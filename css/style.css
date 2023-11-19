@@ -29,3 +29,16 @@ h2 {
 .myProjects {
   color: white;
 }
+
+.aboutMeText {
+  color: #e8630a;
+  text-align: center;
+}
+
+.contactMe {
+  color: #e8630a;
+}
+.contacts,
+h3 {
+  color: white;
+}

@@ -72,7 +72,10 @@
     <h2 class="d-flex justify-content-center p-5">My Projects</h2>
 
     <!-- Work Section -->
-    <div class="row cols-1 p-5 d-flex justify-content-between" id="Work">
+    <div
+      class="row cols-1 p-5 d-flex justify-content-sm-between justify-content-md-between justify-content-lg-evenly"
+      id="Work"
+    >
       <!-- Project 1 -->
       <div class="card" style="width: 18rem">
         <img
@@ -130,7 +133,9 @@
     <!-- Skills Section -->
     <!-- skill 1 -->
 
-    <div class="row cols-1 p-5 d-flex justify-content-between">
+    <div
+      class="row cols-1 p-5 d-flex justify-content-sm-between justify-content-md-between justify-content-lg-evenly"
+    >
       <div class="card" style="width: 18rem">
         <img
           src="https://placehold.co/800?text=Hello+World&font=roboto"
@@ -184,7 +189,7 @@
     <div class="container-fluid" id="About">
       <section>
         <h2 class="fs-2 d-flex justify-content-center p-5">About Me</h2>
-        <p class="d-flex justify-content-center fs-4">
+        <div class="aboutMeText d-flex justify-content-centers fs-4 text-wrap">
           Before Front-End I've spent a decade in the picture framing industry,
           where I started off as a junior consultant many moons ago. I soon
           found myself exploring the picture framing industry intensively. Over
@@ -196,6 +201,7 @@
           musicians too!), art fairs, collectors, and interior designers. This
           requires a strong understanding of design, aesthetic, functionality,
           budgeting, market trends and most of all, a lot of problem - solving!
+        
           The collaboration and communication skills I have developed has proven
           to be the key to my success when bringing cross-functional teams and
           individuals together on small and large projects. 2023 Summer Romance
@@ -218,12 +224,21 @@
           front-end tool belt such as: API integration, React (jsx), libraries
           (bootstrap, tail wind),NodeJs, Html5, CSS3, JavaScript, Python, SEO
           and understanding and implementing responsive design.
-        </p>
+        <div>
       </section>
     </div>
 
     <!-- Contact Me -->
-    <div class="container-fluid" id="Contact"></div>
+    <h2 class="contactMe container-fluid d-flex justify-content-center p-5 fs-4" id="Contact ">
+      Contact me</h2>
+      <div class="contactsContainer d-flex justify-content-center justify-content-sm-evenly justify-content-md-evenly">
+      <h3 class="contacts">
+        Email
+      </h3>
+      <h3>linkedIn </h3>
+      <h3>Instagram </h3>
+      
+    </div>
     <!-- Footer -->
     <footer></footer>
   </body>
