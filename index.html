@@ -14,10 +14,12 @@
   </head>
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary d-flex sticky-top py-0"
+    >
       <div class="nav-container container-fluid">
         <a class="navbar-brand" href="#"
-          ><i class="fa-solid fa-code" id="icon"></i
+          ><i class="fa-solid fa-code fa-2xl" id="icon"></i
         ></a>
         <button
           class="navbar-toggler"
@@ -34,7 +36,7 @@
           class="navRight collapse navbar-collapse d-flex flex-row-reverse"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center">
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link fw-bold fs-4 d-sm-none d-md-block" href="#Work"
                 >Work</a
@@ -70,90 +72,115 @@
     <h2 class="d-flex justify-content-center p-5 text-decoration-underline">My Projects</h2>
 
     <!-- Work Section -->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
+    <div
+      class="row cols-1 p-5 d-flex justify-content-sm-between justify-content-md-between justify-content-lg-evenly"
+      id="Work"
+    >
+      <!-- Project 1 -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://placehold.co/800?text=Hello+World&font=roboto"
+          class="card-img-top img-fluid"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Project 1</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary d-none">Go somewhere</a>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
-          </div>
+
+      <!-- Project 2 -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://placehold.co/800?text=Hello+World&font=roboto"
+          class="card-img-top img-fluids"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary d-none">Go somewhere</a>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
+
+      <!-- project 3 -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://placehold.co/800?text=Hello+World&font=roboto"
+          class="card-img-top img-fluid"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary d-none">Go somewhere</a>
         </div>
       </div>
     </div>
+
     <!-- Skills Section -->
     <!-- skill 1 -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="card" style="width: 18rem">
-          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Skill 1</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
+
+    <div
+      class="row cols-1 p-5 d-flex justify-content-sm-between justify-content-md-between justify-content-lg-evenly"
+    >
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://placehold.co/800?text=Hello+World&font=roboto"
+          class="card-img-top"
+          alt="image displaying an image of a web developers portfolio"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Skill 1</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary d-none">Go somewhere</a>
         </div>
-        <!-- skill 2 -->
-        <div class="card" style="width: 18rem">
-          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Skill 2</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
+      </div>
+      <!-- skill 2 -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://placehold.co/800?text=Hello+World&font=roboto"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Skill 2</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary d-none">Go somewhere</a>
         </div>
-        <!-- skill 3 -->
-        <div class="card" style="width: 18rem">
-          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Skill 3</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
+      </div>
+      <!-- skill 3 -->
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://placehold.co/800?text=Hello+World&font=roboto"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Skill 3</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary d-none">Go somewhere</a>
         </div>
       </div>
     </div>
