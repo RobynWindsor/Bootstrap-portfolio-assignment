@@ -1,0 +1,54 @@
+body {
+  background-color: #132743;
+}
+
+nav {
+  color: #132743;
+}
+
+.nav-container {
+  background-color: #6ff892;
+  color: #132743;
+  z-index: 1;
+}
+
+.jumbotron {
+  background-color: #132743 !important;
+  color: #e8630a;
+  text-align: center;
+}
+
+p {
+  color: #e8630a;
+  text-align: center;
+}
+
+h2 {
+  color: #e8630a;
+}
+.myProjects {
+  color: white;
+}
+
+.aboutMeText {
+  color: #e8630a;
+  text-align: center;
+}
+
+.contactMe {
+  color: #e8630a;
+}
+.contacts,
+h3 {
+  color: white;
+}
+
+.linkedIn,
+h3 {
+  color: white;
+}
+
+.email,
+h3 {
+  color: white;
+}

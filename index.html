@@ -9,15 +9,15 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Robyn Windsor Bootstrap Portfolio</title>
   </head>
   <body>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="nav-container container-fluid fixed-top">
+      <div class="nav-container container-fluid">
         <a class="navbar-brand" href="#"
-          ><i class="fa-solid fa-code fa-xl" id="icon"></i
+          ><i class="fa-solid fa-code" id="icon"></i
         ></a>
         <button
           class="navbar-toggler"
@@ -36,13 +36,23 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link fw-bold fs-4 d-sm-none d-md-block" href="#Work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a
+                class="nav-link fw-bold fs-4 d-sm-none d-md-block"
+                href="#About"
+                >About Me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a
+                class="nav-link fw-bold fs-4 d-sm-none d-md-block"
+                href="#Contact"
+                >Contact Me</a
+              >
             </li>
           </ul>
         </div>
@@ -53,99 +63,155 @@
     <div class="jumbotron p-5 mb-4 bg-body-tertiary rounded-3">
       <div class="jumboCopys container-fluid py-5">
         <h1 class="display-5 fw-bold">Robyn Windsor</h1>
-        <p class="col-md-12 fs-4">Front-End Developer in London</p>
+        <p class="col-md-12 fs-3">Front-End Developer in London</p>
         <img width="200px" src="./images/avatar.jpg" />
       </div>
     </div>
+    <h2 class="d-flex justify-content-center p-5 text-decoration-underline">My Projects</h2>
 
     <!-- Work Section -->
-    <!-- project 1 -->
-    <div class="container-fluid d-flex justify-content-evenly">
-      <div class="card col-2" style="width: 18rem">
-        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
         </div>
       </div>
-      <!-- project 2 -->
-      <div class="card col-2" style="width: 18rem">
-        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a short card.</p>
+          </div>
         </div>
       </div>
-      <!-- project 3 -->
-      <div class="card col-2" style="width: 18rem">
-        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
         </div>
       </div>
     </div>
     <!-- Skills Section -->
     <!-- skill 1 -->
-    <div class="container-fluid d-flex justify-content-center">
-      <div class="card col-2" style="width: 18rem">
-        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="card" style="width: 18rem">
+          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Skill 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
         </div>
-      </div>
-      <!-- skill 2 -->
-      <div class="card col-2" style="width: 18rem">
-        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!-- skill 2 -->
+        <div class="card" style="width: 18rem">
+          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Skill 2</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
         </div>
-      </div>
-      <!-- skill 3 -->
-      <div class="card col-2" style="width: 18rem">
-        <img src="./images/reactProject.png" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!-- skill 3 -->
+        <div class="card" style="width: 18rem">
+          <img src="./images/reactProject.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Skill 3</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- About Me -->
-    <div class="container-fluid">
-      <section>
-        <h2>About Me</h2>
-      </section>
+    <div class="container-fluid" id="About">
+      <div>
+        <h2 class="fs-2 d-flex justify-content-center p-5 text-decoration-underline">About Me</h2>
+        <div class="aboutMeText d-flex justify-content-centers fs-4 word-wrap">
+          Before Front-End I've spent a decade in the picture framing industry,
+          where I started off as a junior consultant many moons ago. I soon
+          found myself exploring the picture framing industry intensively. Over
+          the years I've had roles in workshops where I learnt the many
+          different crafts and skills needed to make high-end bespoke picture
+          frames. I am now a studio manager, lead consultant and project
+          manager. My extensive experience has allowed me to work closely with
+          some of the world's most prestigious galleries, artists (actors and
+          musicians too!), art fairs, collectors, and interior designers. This
+          requires a strong understanding of design, aesthetic, functionality,
+          budgeting, market trends and most of all, a lot of problem - solving!
+        
+          The collaboration and communication skills I have developed has proven
+          to be the key to my success when bringing cross-functional teams and
+          individuals together on small and large projects. 2023 Summer Romance
+          Fast forward to 2023 where my love for front-end web development
+          began. I found a company called SheCodes who offered courses in web
+          development, and I signed up for their SheCodes Max programme, an
+          intensive 7 month course. My desire to continuously learn, create and
+          problem solve was instantly ignited with my first few lines of code,
+          as I built my first basic landing page in HTML and CSS. It felt like
+          magic and as if I had discovered a whole new world full of endless
+          possibilities. Which is exactly what it was! Front-end development
+          allows me to blend creativity with technology. I get to transform
+          static design concepts into interactive and visually appealing
+          websites and applications. The ability to create beautiful and
+          user-friendly interfaces is incredibly rewarding. Ensuring that
+          websites and applications are accessible to all users, regardless of
+          disabilities, is an important aspect of front-end development. Knowing
+          that I'm contributing to a more inclusive digital world is a source of
+          pride. I have since hooked these skills and many more onto my
+          front-end tool belt such as: API integration, React (jsx), libraries
+          (bootstrap, tail wind),NodeJs, Html5, CSS3, JavaScript, Python, SEO
+          and understanding and implementing responsive design.
+        <div>
+        </div>
     </div>
 
     <!-- Contact Me -->
-    <div class="container-fluid"></div>
+    <h2 class="contactMe fs-2 text-decoration-underline d-flex justify-content-center p-5 " id="Contact ">
+      Contact me</h2>
+      <div class="contactsContainer d-flex justify-content-center justify-content-sm-evenly justify-content-md-evenly">
+      <h3 class="contacts"><a class="email text-decoration-none" href="mailto:robynlwindsor@gmail.com">Email</a>
+        
+      </h3>
+      <h3><a class="linkedIn text-decoration-none" href="https://www.linkedin.com/in/robyn-windsor-5a9666151/">LinkedIn</a></h3>
+      
+      
+    </div>
     <!-- Footer -->
     <footer></footer>
   </body>
